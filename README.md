@@ -14,7 +14,12 @@ A collection of academic, DataCamp, and practice projects completed while learni
 | 4 | [Dog and Pet Image Classifier](#4-dog-and-pet-image-classifier) | Computer vision, CNNs | [Run project](https://github.com/kalpasur/Portfolio-Projects-College-Hustle/blob/main/Dog%20Classifier/check_images.py) |
 | 5 | [Insurance Claim Predictor — Assessment Files](#5-insurance-claim-predictor--assessment-files) | Insurance data, predictive analytics | [Open project folder](https://github.com/kalpasur/Portfolio-Projects-College-Hustle/tree/main/Insurance%20Claim%20Predictor) |
 | 6 | [Name Game: Gender Prediction from Names](#6-name-game-gender-prediction-from-names) | Fuzzy matching, data analysis | [Open notebook](https://github.com/kalpasur/Portfolio-Projects-College-Hustle/blob/main/Name%20Game%20Gender%20Prediction%20using%20Sound/notebook.ipynb) |
-| 7 | [Naïve Bees — Image Dataset](#7-naïve-bees--image-dataset) | Deep learning, image classification | [Open project folder](https://github.com/kalpasur/Portfolio-Projects-College-Hustle/tree/main/Na%C3%AFve%20Bees%20Deep%20Learning%20with%20Images) |
+| 7 | [Naïve Bees — Deep Learning with Images](#7-naïve-bees--deep-learning-with-images) | Deep learning, image classification | [Open project folder](https://github.com/kalpasur/Portfolio-Projects-College-Hustle/tree/main/Na%C3%AFve%20Bees%20Deep%20Learning%20with%20Images) |
+| 8 | [Naïve Bees — Image Loading and Processing](#8-naïve-bees--image-loading-and-processing) | Computer vision, image preprocessing | [Open notebook](https://github.com/kalpasur/Portfolio-Projects-College-Hustle/blob/main/Na%C3%AFve%20Bees%20Image%20Loading%20and%20Processing/notebook.ipynb) |
+| 9 | [Naïve Bees — Predict Species from Images](#9-naïve-bees--predict-species-from-images) | Deep learning, image classification | [Open notebook](https://github.com/kalpasur/Portfolio-Projects-College-Hustle/blob/main/Na%C3%AFve%20Bees%20Predict%20Species%20from%20Images/notebook.ipynb) |
+| 10 | [Recreating John Snow's Ghost Map](#10-recreating-john-snows-ghost-map) | Spatial analysis, data visualization | [Open notebook](https://github.com/kalpasur/Portfolio-Projects-College-Hustle/blob/main/Recreating%20John%20Snow%27s%20Ghost%20Map/notebook.ipynb) |
+| 11 | [The Android App Market on Google Play](#11-the-android-app-market-on-google-play) | Exploratory data analysis | [Open notebook](https://github.com/kalpasur/Portfolio-Projects-College-Hustle/blob/main/The%20Android%20App%20Market%20on%20Google%20Play/notebook.ipynb) |
+| 12 | [The Hottest Topics in Machine Learning](#12-the-hottest-topics-in-machine-learning) | Text mining, topic analysis | [Open notebook](https://github.com/kalpasur/Portfolio-Projects-College-Hustle/blob/main/The%20Hottest%20Topics%20in%20Machine%20Learning/notebook.ipynb) |
 
 ---
 
@@ -129,13 +134,64 @@ Check the script's command-line arguments and ensure its Python dependencies and
 - [Baby-name dataset — Social Security Administration](https://github.com/kalpasur/Portfolio-Projects-College-Hustle/blob/main/Name%20Game%20Gender%20Prediction%20using%20Sound/datasets/babynames_ssa.csv)
 - [Yearly NYT kids' bestseller data](https://github.com/kalpasur/Portfolio-Projects-College-Hustle/blob/main/Name%20Game%20Gender%20Prediction%20using%20Sound/datasets/nytkids_yearly.csv)
 
-## 7. Naïve Bees — Image Dataset
+## 7. Naïve Bees — Deep Learning with Images
 
-**Goal / context:** A collection of bee images associated with a deep-learning image-classification exercise.
+**Goal:** A bee-image deep-learning project folder containing image data for classification experiments.
 
 **Files:** [Browse the project folder and image dataset](https://github.com/kalpasur/Portfolio-Projects-College-Hustle/tree/main/Na%C3%AFve%20Bees%20Deep%20Learning%20with%20Images).
 
-**Current limitation:** The tracked folder currently contains image files but no notebook or Python training script. Consequently, there is no verified execution file to link yet. Add the model-training notebook or script when available, and this section can be expanded with the architecture, training setup, evaluation metrics, and results.
+**Repository note:** This folder contains the image dataset; the runnable notebooks for image loading/preprocessing and species prediction are documented separately in Projects 8 and 9.
+
+
+## 8. Naïve Bees — Image Loading and Processing
+
+**Goal:** Prepare bee images for computer-vision workflows by loading, inspecting, and processing image data before model training.
+
+**Files**
+- [Open the Jupyter notebook](https://github.com/kalpasur/Portfolio-Projects-College-Hustle/blob/main/Na%C3%AFve%20Bees%20Image%20Loading%20and%20Processing/notebook.ipynb)
+- [Browse the project folder and datasets](https://github.com/kalpasur/Portfolio-Projects-College-Hustle/tree/main/Na%C3%AFve%20Bees%20Image%20Loading%20and%20Processing)
+
+**Tools / concepts:** Python, image loading, image preprocessing, exploratory computer vision. Run the notebook from its project directory so relative dataset paths resolve.
+
+## 9. Naïve Bees — Predict Species from Images
+
+**Goal:** Use image data to build a workflow for predicting bee species from visual features.
+
+**Files**
+- [Open the Jupyter notebook](https://github.com/kalpasur/Portfolio-Projects-College-Hustle/blob/main/Na%C3%AFve%20Bees%20Predict%20Species%20from%20Images/notebook.ipynb)
+- [Browse the project folder and datasets](https://github.com/kalpasur/Portfolio-Projects-College-Hustle/tree/main/Na%C3%AFve%20Bees%20Predict%20Species%20from%20Images)
+
+**Tools / concepts:** Python, deep learning, image classification. Consult the notebook for the specific model, training procedure, and evaluation results.
+
+## 10. Recreating John Snow's Ghost Map
+
+**Goal:** Recreate and explore the historical cholera map associated with John Snow, using data visualization and spatial reasoning to examine the geographic pattern of cases.
+
+**Files**
+- [Open the Jupyter notebook](https://github.com/kalpasur/Portfolio-Projects-College-Hustle/blob/main/Recreating%20John%20Snow%27s%20Ghost%20Map/notebook.ipynb)
+- [Browse the project folder and datasets](https://github.com/kalpasur/Portfolio-Projects-College-Hustle/tree/main/Recreating%20John%20Snow%27s%20Ghost%20Map)
+
+**Tools / concepts:** Python, data visualization, historical epidemiological data, spatial analysis. The notebook is the starting point for the workflow and its visualizations.
+
+## 11. The Android App Market on Google Play
+
+**Goal:** Explore the Google Play app market to understand app categories, ratings, installs, pricing, and other store attributes.
+
+**Files**
+- [Open the Jupyter notebook](https://github.com/kalpasur/Portfolio-Projects-College-Hustle/blob/main/The%20Android%20App%20Market%20on%20Google%20Play/notebook.ipynb)
+- [Browse the project folder and datasets](https://github.com/kalpasur/Portfolio-Projects-College-Hustle/tree/main/The%20Android%20App%20Market%20on%20Google%20Play)
+
+**Tools / concepts:** Python, pandas, data cleaning, exploratory data analysis, visualization. Use the notebook to see the exact data preparation and analysis steps.
+
+## 12. The Hottest Topics in Machine Learning
+
+**Goal:** Analyze machine-learning research papers to explore how research topics and terminology have changed over time.
+
+**Files**
+- [Open the Jupyter notebook](https://github.com/kalpasur/Portfolio-Projects-College-Hustle/blob/main/The%20Hottest%20Topics%20in%20Machine%20Learning/notebook.ipynb)
+- [Browse the project folder and datasets](https://github.com/kalpasur/Portfolio-Projects-College-Hustle/tree/main/The%20Hottest%20Topics%20in%20Machine%20Learning)
+
+**Tools / concepts:** Python, text processing, natural-language processing, topic exploration, data visualization. See the notebook for the exact text-analysis method and findings.
 
 ---
 
@@ -159,7 +215,12 @@ Not every folder currently contains a runnable implementation. Where only datase
 - **Dog Classifier/** — Python image-classification workflow and sample images
 - **Insurance Claim Predictor/** — assessment brief and datasets
 - **Name Game Gender Prediction using Sound/** — notebook and name datasets
-- **Naïve Bees Deep Learning with Images/** — image dataset
+- **Naïve Bees Deep Learning with Images/** — bee-image dataset
+- **Naïve Bees Image Loading and Processing/** — notebook for image preparation
+- **Naïve Bees Predict Species from Images/** — notebook for bee-species image classification
+- **Recreating John Snow's Ghost Map/** — historical cholera mapping and visualization notebook
+- **The Android App Market on Google Play/** — Google Play Store exploratory analysis notebook
+- **The Hottest Topics in Machine Learning/** — analysis of machine-learning research topics
 
 ---
 
